@@ -51,3 +51,8 @@ public:
 		}
 	}
 };
+
+int main() {
+	StackArray obj;
+	char ch;
+}
