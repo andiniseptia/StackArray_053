@@ -83,5 +83,10 @@ int main() {
 			obj.pop();
 			break;
 		}
+		case '3': {
+			obj.display();
+			break;
+		}
+
 	}
 }
