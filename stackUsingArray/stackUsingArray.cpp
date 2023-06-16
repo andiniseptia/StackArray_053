@@ -87,6 +87,9 @@ int main() {
 			obj.display();
 			break;
 		}
+		case '4': {
+			return 0;
+		}
 
 	}
 }
