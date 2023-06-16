@@ -55,4 +55,16 @@ public:
 int main() {
 	StackArray obj;
 	char ch;
+
+	while (true)
+	{
+		cout << endl << "Stack Menu";
+		cout << endl << "1. Push" << endl;
+		cout << "2. Pop" << endl;
+		cout << "3. Display" << endl;
+		cout << "4. Exit" << endl;
+		cout << endl << "Masukkan pilihan (1-4) : " << endl;
+		char ch;
+		cin >> ch;
+	}
 }
