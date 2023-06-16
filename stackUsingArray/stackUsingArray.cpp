@@ -75,6 +75,13 @@ int main() {
 			obj.push(element);
 			break;
 		}
-
+		case '2': {
+			if (obj.empty()) {
+				cout << "\nStack is Empty." << endl;
+				break;
+			}
+			obj.pop();
+			break;
+		}
 	}
 }
