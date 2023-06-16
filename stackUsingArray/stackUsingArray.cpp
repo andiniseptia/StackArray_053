@@ -66,5 +66,15 @@ int main() {
 		cout << endl << "Masukkan pilihan (1-4) : " << endl;
 		char ch;
 		cin >> ch;
+
+		switch (ch) {
+		case '1': {
+			int element;
+			cout << "Enter an element : ";
+			cin >> element;
+			obj.push(element);
+			break;
+		}
+
 	}
 }
